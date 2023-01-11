@@ -1,0 +1,65 @@
+﻿@model ReporteMensualViewModel
+
+@{
+    ViewData["Title"] = "Reporte Mensual";
+    int añoAnterior = Model.Año - 1;
+    int añoPosterior = Model.Año + 1;
+    var resumenMontos = new ResumenMontosViewModel()
+    {
+        Egresos = Model.Egresos,
+        Ingresos = Model.Ingresos,
+        Total = Model.Total
+    };
+}
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="IndexMensual">
+        <div class="row" id="Submenu-mensual">
+            <partial name="_Submenu" model="SubMenuTransacciones.Mensual" />
+        </div>
+
+        <div class="row" id="SeleccionarMes">
+            <h4>
+                Mostrando transacciones de
+                <a asp-route-año="@añoAnterior" class="btn btn-secondary">
+                    <i class="bi-chevron-left"></i>
+                </a> @Model.Año
+                <a asp-route-año="@añoPosterior" class="btn btn-secondary">
+                    <i class="bi-chevron-right"></i>
+                </a>
+            </h4>
+        </div>
+
+        <partial name="_ResumenMontos" model="@resumenMontos" />
+
+        <div class="row" id="TablaMensual">
+            <table class="table" style="font-size: 20px">
+                <thead>
+                    <tr style="background-color: lightblue">
+                        <th>Mes</th>
+                        <th style="text-align: right">Ingresos</th>
+                        <th style="text-align: right">Egresos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var transaccion in Model.TransaccionesPorMes)
+                    {
+                        <tr>
+                            <td>
+                                <a style="text-decoration: none;" asp-action="Index"
+                               asp-route-año="@Model.Año" asp-route-mes="@transaccion.Mes">
+                                    @transaccion.FechaReferencia.ToString("MMM")
+                                </a>
+                            </td>
+                            <td class="activo" style="text-align: right">
+                                @transaccion.Ingreso
+                            </td>
+                            <td class="pasivos" style="text-align: right">
+                                @transaccion.Egreso
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

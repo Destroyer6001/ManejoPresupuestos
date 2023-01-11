@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Reporte Excel";
+    var hoy = DateTime.Today;
+    var haceunmes = hoy.AddMonths(-1);
+    var mesActual = hoy.Month;
+    var añoActual = hoy.Year;
+    var mesAnterior = haceunmes.Month;
+    var mesAnteriorAño = haceunmes.Year;
+    var AñoAnterior = añoActual - 1;
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="ReporteExcel">
+
+        <div class="row" id="SubmenuReporteExcel">
+            <partial name="_Submenu" model="SubMenuTransacciones.Excel" />
+        </div>
+
+        <div class="row" id="TituloReporteExcel">
+            <h1>Exportar Transacciones a Excel</h1>
+        </div>
+
+        <div class="mb-3" id="ExportarMesActual">
+            <a asp-action="ExportarExcelPorMes" asp-route-mes="@mesActual" asp-route-año="@añoActual"
+               id="ExportarMesActualBtn" class="btn">
+                Exportar mes actual
+            </a> ~ @hoy.ToString("MMMM yyyy")
+        </div>
+
+        <div class="mb-3" id="ExportarMesAnterior">
+            <a asp-action="ExportarExcelPorMes" asp-route-mes="@mesAnterior" asp-route-año="@mesAnteriorAño"
+               id="ExportarMesAnteriorBtn" class="btn">
+                Exportar mes anterior
+            </a> ~ @haceunmes.ToString("MMMM yyyy")
+        </div>
+
+        <div class="mb-3" id="ExportarAñoActual">
+            <a asp-action="ExportarExcelPorAño" asp-route-año="@añoActual"
+               id="ExportarAñoActualBtn" class="btn">
+                Exportar año actual
+            </a> ~ @añoActual
+        </div>
+
+        <div class="mb-3" id="ExportarAñoAnterior">
+            <a asp-action="ExportarExcelPorAño" asp-route-año="@AñoAnterior"
+               id="ExportarAñoAnteriorBtn" class="btn">
+                Exportar año anterior
+            </a> ~ @AñoAnterior
+        </div>
+
+        <div class="mb-3" id="ExportarTodo">
+            <a asp-action="ExportarTodo"
+               id="ExportarTodoBtn" class="btn">
+                Exportar todo
+            </a>
+        </div>
+    </div>
+</div>

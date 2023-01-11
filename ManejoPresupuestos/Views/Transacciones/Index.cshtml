@@ -1,0 +1,17 @@
+﻿@model ReporteTransaccionesDetalladas
+
+@{
+    ViewData["Title"] = "Reporte Diario";
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="IndexTransacciones">
+        <div id="SubMenu">
+            <partial name="_Submenu" model="SubMenuTransacciones.Diario" />
+        </div>
+        <div class="row" id="boton-crear-index-trasaccion">
+            <a class="btn" asp-action="Crear">Crear</a>
+        </div>
+        <partial name="_ReporteTransaccionesDetalladas" model="Model" />
+    </div>
+</div>

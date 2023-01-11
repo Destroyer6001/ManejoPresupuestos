@@ -1,0 +1,1100 @@
+﻿#Titulo 
+{
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left:18px;
+}
+
+#Subtitulo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#Formulario {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CrearTipoDeCuenta {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua; 
+    background-color:lavender;
+}
+
+#boton-creartipodecuenta {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoNombre {
+   border-radius: 10px
+}
+
+
+#boton-cancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#IndexTipoDeCuenta {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndex {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#Boton-CrearIndex {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+
+#SubtituloIndex {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaIndex {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#boton-actualizarIndex {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#boton-eliminaindex {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#FormularioEditar {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloEditar {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#botonGuardarCambios {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoNombreEditar {
+    border-radius: 10px
+}
+
+
+#boton-cancelarCambios {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#EditarTipoDeCuenta {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#NoEncontradoLink {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloNoEncontrado {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#NoEncontrado {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+
+#BorrarTipoDeCuenta {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioBorrar {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloBorrar {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloBorrar {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonBorrar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#botonCancelarBorar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#Reordenable {
+    cursor: move;
+}
+
+#CrearCuenta {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioCrearCuenta {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCrearCuenta {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloCrearCuenta {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#boton-crearCuenta {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#boton-CancelarCrear {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoNombreCrear {
+    border-radius: 10px
+}
+
+#CampoTipoDeCuentaCrear {
+    border-radius: 10px
+}
+
+#CampoBalanceCrear {
+    border-radius: 10px
+}
+
+#CampoDescripcionCrear {
+    border-radius: 10px
+}
+
+.Contenerdor-totales{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+}
+
+.activo{
+    color:blue;
+}
+
+.pasivos {
+    color: red;
+}
+
+#IndexCuentas {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndexCuentas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#AcordeonCuentas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCuentasCrear {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#EditarCuenta {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarCuenta {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioEditarCuenta {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#boton-EditarCuenta {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#boton-CancelarEditar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#BorrarCuenta {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloBorrarCuenta {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioBorrarCuenta {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CancelarBorrarCuenta {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#BorrarCuentaConfirmacion {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CrearCategoria {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloCrearCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCrearCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioCrearCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CrearCategoriaBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#CrearCategoriaCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoCategoriaCrear {
+border-radius: 10px
+}
+
+#IndexCategorias {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndiceCategorias {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloIndiceCategorias {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaIndiceCategorias {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCrearIndiceCategorias {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonEditarIndiceCategoria {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#BotonBorrarIndiceCategoria {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#BotonActualizarCuentaIndice {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#BotonBorrarCuentaIndice {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#EditarCategoria {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloEditarCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioActualizaCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#EditarCategoriaBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#EditarCategoriaCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoCategoriaEditar {
+    border-radius: 10px
+}
+
+#BorrarCategoria {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioBorrarCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloBorrarCategoria {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonBorrarCategoria {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#BotonCancelarCategoria {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CrearTransacciones {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TitutloCrearTrasacciones {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCrearTransacciones {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioCrearTransacciones {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCrearTransaccion {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#BotonCancelarTrasaccionCrear {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoFormularioCrearTransacciones {
+    border-radius: 10px
+}
+
+#EditarTransacciones {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarTrasacciones {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloEditarTransacciones {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioEditarTransacciones {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonEditarTransaccion {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#BotonEditarTrasaccionCrear {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#BotonBorrarTransaccion {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#CampoFormularioEditarTransacciones {
+    border-radius: 10px
+}
+
+
+#DetalleCuentas {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#titulodetalletransacciones {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#Selectordefechadetalle {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#ContenedorTotalesDetalle {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TabladetalleCuentas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#Botoneditardetallecuentas {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#IndexTransacciones {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#SubMenu {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+
+#boton-crear-index-trasaccion {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#Submenu-semanal {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#Tabla-index-semanal {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#IndexSemanal {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#Submenu-mensual {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SeleccionarMes {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaMensual {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#IndexMensual {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+
+#TituloReporteExcel {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubmenuReporteExcel {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#ReporteExcel {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#ExportarMesActual {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+
+#ExportarMesActualBtn {
+    margin-top: 30px;
+    background: #fdf9c4;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#ExportarMesAnterior {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+
+#ExportarMesAnteriorBtn {
+    margin-top: 30px;
+    background: #fabfb7;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#ExportarAñoActual {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+
+#ExportarAñoActualBtn {
+    margin-top: 30px;
+    background: #ffda9e;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#ExportarAñoAnterior {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+
+#ExportarAñoAnteriorBtn {
+    margin-top: 30px;
+    background: #c5c6c8;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#ExportarTodo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+
+#ExportarTodoBtn {
+    margin-top: 30px;
+    background: #b2e2f2;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#calendario {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#ReporteCalendario {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#SubmenuCalendario {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloRegistroUsuarios {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#formularioRegistroUsuarios {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#RegistroUsuarios {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#BotonRegistrar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoRegistroUsuarios {
+    border-radius: 10px
+}

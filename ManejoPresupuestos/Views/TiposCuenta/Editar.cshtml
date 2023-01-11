@@ -1,0 +1,32 @@
+﻿@model TipoCuentaViewModel
+@{
+    ViewData["Title"] = "Editar Tipo Cuenta";
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="EditarTipoDeCuenta">
+
+        <div class="row" id="TituloEditar">
+            <h1>Editar Tipo Cuenta: @Model.Nombre</h1>
+        </div>
+
+
+        <div class="row" id="FormularioEditar">
+            <form asp-action="Editar">
+                <input type="hidden" asp-for="Id" />
+                <div class="mb-3">
+                    <label asp-for="Nombre" class="form-label"></label>
+                    <input type="text" asp-for="Nombre" class="form-control" id="CampoNombreEditar" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn" id="botonGuardarCambios">Enviar</button>
+                <a class="btn" id="boton-cancelarCambios" asp-action="Index">Cancelar</a>
+            </form>
+        </div>
+    </div>
+ </div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+

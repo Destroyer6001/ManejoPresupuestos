@@ -1,0 +1,42 @@
+﻿@model CategoriaViewModel
+@{
+    ViewData["Title"] = "Crear Categoria";
+}
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="CrearCategoria">
+        <div class="row" id="TituloCrearCategoria">
+            <h1>Crear Categoria</h1>
+        </div>
+
+        <div class="row" id="SubtituloCrearCategoria">
+            <h5>La Categoria nos permite indicar en que gastamos nuestro dinero,tambien, de donde provienen nuestros ingresos</h5>
+        </div>
+  
+        <div class="row" id="FormularioCrearCategoria">
+            <form asp-action="Crear">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3" >
+                    <label asp-for="Categoria" class="form-label"></label>
+                    <input asp-for="Categoria" class="form-control" id="CampoCategoriaCrear" />
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3" >
+                    <label asp-for="TipoOperacionId" class="form-label"></label>
+                    <select asp-for="TipoOperacionId" asp-items="Html.GetEnumSelectList<TipoOperacion>()" class="form-select" id="CampoCategoriaCrear"></select>
+                    <span asp-validation-for="TipoOperacionId" class="text-danger"></span>
+                </div>
+
+                <button class="btn" id="CrearCategoriaBoton">Enviar</button>
+                <a class="btn" id="CrearCategoriaCancelar" asp-action="Index">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,68 @@
+﻿@model TransaccionCreacionViewModel
+@{
+    ViewData["Title"] = "Crear Transaccion";
+}
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="CrearTransacciones">
+
+        <div class="row" id="TitutloCrearTrasacciones">
+            <h1>Crear Transaccion</h1>
+        </div>
+        
+        <div class="row" id="SubtituloCrearTransacciones">
+            <h5>Una transaccion te permite indicar tus ingresos y gastos</h5>
+        </div>
+        
+        <div class="row" id="FormularioCrearTransacciones">
+            <form asp-action="Crear">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mb-3" id="CampoFormularioCrearTransacciones">
+                    <label asp-for="FechaTransaccion" class="form-label"></label>
+                    <input asp-for="FechaTransaccion" class="form-control" />
+                    <span asp-validation-for="FechaTransaccion" class="text-danger"></span>
+                </div>
+                <div class="mb-3" id="CampoFormularioCrearTransacciones">
+                    <label asp-for="CuentaId" class="form-label"></label>
+                    <select asp-for="CuentaId" asp-items="Model.Cuentas" class="form-select"></select>
+                    <span asp-validation-for="CuentaId" class="text-danger"></span>
+                </div>
+                <div class="mb-3" id="CampoFormularioCrearTransacciones">
+                    <label asp-for="TipoOperacionId" class="form-label"></label>
+                    <select asp-for="TipoOperacionId" asp-items="Html.GetEnumSelectList<TipoOperacion>()" class="form-select"></select>
+                    <span asp-validation-for="CuentaId" class="text-danger"></span>
+                </div>
+                <div class="mb-3" id="CampoFormularioCrearTransacciones">
+                    <label asp-for="CategoriaId" class="form-label"></label>
+                    <select asp-for="CategoriaId" asp-items="Model.Categorias" class="form-select"></select>
+                    <span asp-validation-for="CategoriaId" class="text-danger"></span>
+                </div>
+                <div class="mb-3" id="CampoFormularioCrearTransacciones">
+                    <label asp-for="Monto" class="form-label"></label>
+                    <input asp-for="Monto" class="form-control" />
+                    <span asp-validation-for="Monto" class="text-danger"></span>
+                </div>
+                <div class="mb-3" id="CampoFormularioCrearTransacciones">
+                    <label asp-for="Nota" class="form-label"></label>
+                    <textarea asp-for="Nota" class="form-control"></textarea>
+                    <span asp-validation-for="Nota" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn" id="BotonCrearTransaccion">Enviar</button>
+                <a class="btn" asp-action="Index" id="BotonCancelarTrasaccionCrear">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/FormularioTransacciones.js" asp-append-version="true"></script>
+    <script>
+
+        const urlObtenerCategorias = '@Url.Action("ObtenerCategorias")';
+
+        $(function () {
+            inicializarFormularioTransacciones(urlObtenerCategorias);
+        })
+    </script>
+}

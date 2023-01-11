@@ -1,0 +1,11 @@
+﻿@model ReporteTransaccionesDetalladas
+@{
+    ViewData["Title"] = "Movimientos Cuenta";
+}
+
+<div class="row">
+    <div class="col-md-10 offset-md-1 by-10" id="DetalleCuentas">
+        <h1 id="titulodetalletransacciones">Movimientos @ViewBag.Cuenta</h1>
+        <partial name="_ReporteTransaccionesDetalladas" model="Model" />
+    </div>
+</div>

@@ -1,0 +1,42 @@
+﻿@model CategoriaViewModel
+@{
+    ViewData["Title"] = "Editar Categoria";
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="EditarCategoria">
+        <div class="row" id="TituloEditarCategoria">
+            <h1>Editar categoria</h1>
+        </div>
+
+        <div class="row" id="SubtituloEditarCategoria">
+            <h5>La Categoria nos permite indicar en que gastamos nuestro dinero,tambien, de donde provienen nuestros ingresos</h5>
+        </div>
+
+        <div class="row" id="FormularioActualizaCategoria">
+            <form asp-action="Editar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="mb-3">
+                    <label asp-for="Categoria" class="form-label"></label>
+                    <input asp-for="Categoria" class="form-control" id="CampoCategoriaEditar" />
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="TipoOperacionId" class="form-label"></label>
+                    <select asp-for="TipoOperacionId" asp-items="Html.GetEnumSelectList<TipoOperacion>()" class="form-select" id="CampoCategoriaEditar"></select>
+                    <span asp-validation-for="TipoOperacionId" class="text-danger"></span>
+                </div>
+
+                <button class="btn" id="EditarCategoriaBoton">Enviar</button>
+                <a class="btn" id="EditarCategoriaCancelar" asp-action="Index">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+    {
+    <partial name="_ValidationScriptsPartial" />
+}
